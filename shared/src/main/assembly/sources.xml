@@ -1,0 +1,20 @@
+<assembly xmlns="http://apache.org"
+          xmlns:xsi="http://w3.org"
+          xsi:schemaLocation="http://apache.org http://apache.org">
+    <!-- Имя суффикса (classifier). Будет сгенерирован файл shared-1.0-SNAPSHOT-sources.jar -->
+    <id>sources</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <!-- Забираем файлы ИСКЛЮЧИТЕЛЬНО из деломбока (где лежат чистые Java-классы и .gwt.xml) -->
+            <directory>${project.build.directory}/generated-sources/delombok</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>

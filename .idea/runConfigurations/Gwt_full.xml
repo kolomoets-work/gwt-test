@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Gwt-full" type="CompoundRunConfigurationType">
+    <toRun name="Gwt-client" type="MavenRunConfiguration" />
+    <toRun name="Gwt-server" type="MavenRunConfiguration" />
+    <method v="2" />
+  </configuration>
+</component>

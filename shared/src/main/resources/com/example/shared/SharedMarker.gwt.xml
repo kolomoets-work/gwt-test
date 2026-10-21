@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD GWT 2.11.0//EN" "http://gwtproject.org/doctype/2.11.0/gwt-module.dtd">
+<module>
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name='com.example.shared.models'/>
+
+    <source path="" includes="dto/**, *.java"/>
+
+
+</module>
