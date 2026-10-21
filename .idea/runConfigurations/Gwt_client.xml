@@ -28,6 +28,8 @@
           <option name="goals">
             <list>
               <option value="gwt:codeserver" />
+              <option value="-am" />
+              <option value="-Dgwt.launcherDir=../server/src/main/webapp" />
             </list>
           </option>
           <option name="multimoduleDir" />

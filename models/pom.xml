@@ -98,20 +98,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-source-plugin</artifactId>
-                <version>3.3.1</version> <!-- Стабильная версия для Maven 3.x -->
-                <executions>
-                    <execution>
-                        <id>attach-sources</id>
-                        <phase>package</phase> <!-- Привязываем к фазе упаковки -->
-                        <goals>
-                            <goal>jar-no-fork</goal> <!-- Создаст файл вида models-sources.jar -->
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
