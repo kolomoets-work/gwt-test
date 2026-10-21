@@ -1,0 +1,5 @@
+.idea
+/client/target/
+/models/target/
+/server/target/
+/shared/target/
